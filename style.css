@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    min-height:100vh;
+    background: linear-gradient(220deg, rgb(151, 22, 22), rgb(88, 88, 201));
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    
+}
+form{
+    margin: 20px;
+    padding: 20px;
+    background: rgb(104, 104, 109);
+}
+h2{
+    text-align: center;
+    color:rgb(114, 30, 30);
+}
+.signup
+{
+    border-radius: 4px;
+    padding: 5px;
+    margin:20px;
+    border:none;
+
+}
+.btn
+{
+    margin: 0 40%;
+    
+}
+
+.wid{
+    width: 90%;
+}
+p{
+    margin-left: 20px;
+}
+form:hover
+{
+    background-color: rgb(16, 64, 92);
+    
+}
+
+.btn:hover{
+    background:  yellow;
+    font-weight: bolder;
+}
+
